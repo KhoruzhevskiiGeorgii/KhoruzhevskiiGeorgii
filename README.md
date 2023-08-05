@@ -4,7 +4,7 @@
 Right now I am working in [ReputationHouse](#https://reputation.house) as Monitoring & Analysis specialist. My job is to find the problem in your brand and give you the solution.  
 
 ### Connect with me:
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/georgii-khoruzhevskii-b15257279//)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg' alt='telegram' height='40'>](t.me/ex_georgy)  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>]([https://www.linkedin.com/in/https://www.linkedin.com/in/georgii-khoruzhevskii-b15257279](https://www.linkedin.com/in/georgii-khoruzhevskii-b15257279/))  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg' alt='telegram' height='40'>](t.me/ex_georgy)  
 
 <!--
 **KhoruzhevskiiGeorgii/KhoruzhevskiiGeorgii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
