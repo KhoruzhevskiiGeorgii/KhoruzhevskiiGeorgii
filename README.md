@@ -15,7 +15,6 @@ I studied Fundamental Mathematics at Saint Petersburg State University and work 
 
 - **math_automaton** — automation tools for generating short mathematical videos from structured YAML scenarios.
 - **cryptorus** — Telegram/news automation for crypto-related content aggregation and summarization.
-- **market_task** — analytical test task based on advertising events: CTR, DAU, user-banner behaviour, and click dynamics.
 - **Yandex Practicum projects** — educational data analytics projects: cohort analysis, A/B testing, dashboards, product metrics.
 
 ## Contact
