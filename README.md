@@ -13,9 +13,9 @@ I studied Fundamental Mathematics at Saint Petersburg State University and work 
 
 ## Selected projects
 
-- **math_automaton** — automation tools for generating short mathematical videos from structured YAML scenarios.
-- **cryptorus** — Telegram/news automation for crypto-related content aggregation and summarization.
-- **Yandex Practicum projects** — educational data analytics projects: cohort analysis, A/B testing, dashboards, product metrics.
+- [**math_automaton**](https://github.com/KhoruzhevskiiGeorgii/math_automaton) — automation tools for generating short mathematical videos from structured YAML scenarios.
+- [**cryptorus**](https://github.com/KhoruzhevskiiGeorgii/cryptorus) — news parsing, summarization, and Telegram publishing automation pipeline.
+- [**Yandex Practicum projects**](https://github.com/KhoruzhevskiiGeorgii/Yandex-Practicum-projects) — archived educational data analytics projects: cohort analysis, A/B testing, dashboards, and product metrics.
 
 ## Contact
 
