@@ -22,4 +22,4 @@ I studied Fundamental Mathematics at Saint Petersburg State University and work 
 
 - Email: khoruzhevskiigeorgii@gmail.com
 - Telegram: @ex_georgy
-- LinkedIn: https://www.linkedin.com/in/georgii-khoruzhevskii-b15257279/
+- LinkedIn: https://rs.linkedin.com/in/georgii-khoruzhevskii
