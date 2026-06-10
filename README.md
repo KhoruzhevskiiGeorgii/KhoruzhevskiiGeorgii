@@ -24,6 +24,10 @@ Python, SQL, pandas, requests, BeautifulSoup, Playwright, GitHub Actions, Telegr
 - [**math_automaton**](https://github.com/KhoruzhevskiiGeorgii/math_automaton) — structured mathematical video generation from YAML scenarios using Python, Manim, LaTeX, and narration.
 - [**x-followers-collector**](https://github.com/KhoruzhevskiiGeorgii/x-followers-collector) — scheduled collector for public X follower counts using Playwright, GitHub Actions, and Google Sheets.
 
+## Public CV
+
+- [Markdown resume](https://github.com/KhoruzhevskiiGeorgii/my_resume)
+
 ## Contact
 
 - LinkedIn: https://linkedin.com/in/georgii-khoruzhevskii
