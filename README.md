@@ -1,24 +1,30 @@
 # Georgii Khoruzhevskii
 
-Data analyst with a strong mathematical background and practical experience in Python automation, analytics pipelines, BI dashboards, and product/business metrics.
+Mathematics-background candidate based in Belgrade, focused on Python, data automation, and ML/AI-oriented engineering.
 
-I studied Fundamental Mathematics at Saint Petersburg State University and work with data, reporting, automation, and client-facing analytical tasks. I am especially interested in projects where mathematics, software tooling, and analytics meet: content generation, data pipelines, bots, dashboards, and internal tools.
+I completed 5 semesters of Fundamental Mathematics at Saint Petersburg State University. My academic recognition procedure in Serbia is in progress, with expected enrollment at the University of Belgrade Faculty of Mathematics in September 2026.
 
-## What I work with
+I am currently looking for a 20h/week ML / AI / research-oriented internship or junior role.
 
-- **Analytics:** product metrics, BI reporting, dashboards, cohort analysis, A/B testing, marketing and advertising analytics
-- **Programming:** Python, pandas, NumPy, requests, BeautifulSoup, Telegram bots, automation scripts
-- **Databases and BI:** SQL, PostgreSQL, ClickHouse, BigQuery, Power BI, Tableau, Looker Studio, Yandex DataLens
-- **Mathematics:** mathematical analysis, probability, statistics, linear algebra, discrete mathematics
+## Interests
+
+- ML / AI research engineering
+- LLM evaluation and AI-assisted workflows
+- Search, retrieval, and data pipelines for experiments
+- Python automation, parsers, bots, scheduled workflows
+- Mathematical and technical content generation
+
+## Tech stack
+
+Python, SQL, pandas, requests, BeautifulSoup, Playwright, GitHub Actions, Telegram Bot API, Google Apps Script, OpenAI API, ClickHouse, BigQuery, dbt, Manim, LaTeX.
 
 ## Selected projects
 
-- [**math_automaton**](https://github.com/KhoruzhevskiiGeorgii/math_automaton) — automation tools for generating short mathematical videos from structured YAML scenarios.
-- [**cryptorus**](https://github.com/KhoruzhevskiiGeorgii/cryptorus) — news parsing, summarization, and Telegram publishing automation pipeline.
-- [**Yandex Practicum projects**](https://github.com/KhoruzhevskiiGeorgii/Yandex-Practicum-projects) — archived educational data analytics projects: cohort analysis, A/B testing, dashboards, and product metrics.
+- [**cryptorus**](https://github.com/KhoruzhevskiiGeorgii/cryptorus) — automated crypto/news parsing and Telegram publishing pipeline with OpenAI API summaries.
+- [**math_automaton**](https://github.com/KhoruzhevskiiGeorgii/math_automaton) — structured mathematical video generation from YAML scenarios using Python, Manim, LaTeX, and narration.
+- [**x-followers-collector**](https://github.com/KhoruzhevskiiGeorgii/x-followers-collector) — scheduled collector for public X follower counts using Playwright, GitHub Actions, and Google Sheets.
 
 ## Contact
 
+- LinkedIn: https://linkedin.com/in/georgii-khoruzhevskii
 - Email: khoruzhevskiigeorgii@gmail.com
-- Telegram: @ex_georgy
-- LinkedIn: https://rs.linkedin.com/in/georgii-khoruzhevskii
