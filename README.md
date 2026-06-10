@@ -4,7 +4,7 @@ Mathematics-background candidate based in Belgrade, focused on Python, data auto
 
 I completed 5 semesters of Fundamental Mathematics at Saint Petersburg State University. My academic recognition procedure in Serbia is in progress, with expected enrollment at the University of Belgrade Faculty of Mathematics in September 2026.
 
-I am currently looking for a 20h/week ML / AI / research-oriented internship or junior role.
+I am currently looking for an ML / AI / research-oriented internship or junior role.
 
 ## Interests
 
