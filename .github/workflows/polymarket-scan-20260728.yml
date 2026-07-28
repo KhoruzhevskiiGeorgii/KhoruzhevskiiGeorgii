@@ -12,7 +12,7 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 25
     steps:
       - name: Check out temporary branch
         uses: actions/checkout@v4
@@ -22,8 +22,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run one-off scan
-        run: python polymarket_scan_remote.py | tee scan.log
+      - name: Run bounded-time one-off scan
+        run: python polymarket_scan_fast_wrapper.py | tee scan.log
 
       - name: Upload scan output
         uses: actions/upload-artifact@v4
