@@ -1,0 +1,10 @@
+metric,value
+Snapshot UTC,2026-07-28T17:38:30.122558+00:00
+Leaderboard rows,600
+Unique candidates,430
+Passed all hard rules,0
+Crypto-tagged candidates,85
+Price-persistence rows,360
+Usable 1-minute observations,222
+Price-history errors,130
+Conclusion,No candidate passes all fixed rules; no real auto-copy deployment

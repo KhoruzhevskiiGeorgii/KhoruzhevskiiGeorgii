@@ -1,0 +1,26 @@
+section,metric,value,notes
+Universe,Periods,"WEEK, MONTH",Official Data API leaderboard
+Universe,Categories,"OVERALL, POLITICS, ECONOMICS, FINANCE, TECH, CRYPTO",Crypto included and separately flagged
+Formula,Realized ROI,sum(realizedPnl) / sum(totalBought * avgPrice),Missing when denominator is unavailable
+Formula,Price persistence,price after 1m/5m - copied BUY price,Positive is worse for delayed copier
+Hard rule,Max days since last trade,3,Fixed before scan
+Hard rule,Min active days in 30d,8,Fixed before scan
+Hard rule,Min closed positions,50,Fixed before scan
+Hard rule,Min visible history days,90,Fixed before scan
+Hard rule,Min realized ROI,0.15,Fixed before scan
+Hard rule,Max trades per active day,10,Fixed before scan
+Hard rule,Max trades per market,3,Fixed before scan
+Hard rule,Max top-1 positive PnL share,0.2,Fixed before scan
+Hard rule,Max top-5 positive PnL share,0.5,Fixed before scan
+Hard rule,Min median holding days,1,Fixed before scan
+Hard rule,Max hedged market share,0.05,Fixed before scan
+Hard rule,Max median adverse 1m,0.02,Fixed before scan
+Run audit,Leaderboard rows,600,12 pulls × 50
+Run audit,Unique candidates,430,Deduplicated by wallet
+Run audit,Recovered closed-position wallets,155,Recovery errors: 0
+Run audit,Price-persistence rows,360,Top 30 preliminary candidates
+Limitation,Activity / closed caps,500 rows per wallet,Very active histories may be truncated
+Source,Leaderboard,https://data-api.polymarket.com/v1/leaderboard,Public read-only API
+Source,Activity,https://data-api.polymarket.com/activity,Public read-only API
+Source,Closed positions,https://data-api.polymarket.com/closed-positions,Public read-only API
+Source,Price history,https://clob.polymarket.com/prices-history,"Absolute start/end timestamps, 1-minute fidelity"
