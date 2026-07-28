@@ -1,0 +1,11 @@
+reason,failures
+Too frequent / HFT,773
+Concentrated PnL,546
+Poor/missing price persistence,400
+Short visible history,387
+Short/missing holding period,330
+Low/missing ROI,314
+Too few active days,280
+Insufficient closed sample,221
+Hedged/complex positions,198
+Inactive,103

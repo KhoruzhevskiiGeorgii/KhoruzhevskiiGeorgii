@@ -1,0 +1,46 @@
+name: Publish Polymarket Google Sheets data 2026-07-28
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  actions: read
+  contents: write
+  pull-requests: read
+
+jobs:
+  publish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out temporary branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download completed scan artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p downloaded/full downloaded/recovery downloaded/price
+          gh run download 30379576314 -n polymarket-scan-results -D downloaded/full
+          gh run download 30381925645 -n polymarket-closed-recovery -D downloaded/recovery
+          gh run download 30382508813 -n polymarket-price-recovery -D downloaded/price
+
+      - name: Assemble final CSVs
+        run: python assemble_sheet_data.py | tee sheet_data_build.log
+
+      - name: Commit CSVs to temporary data branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sheet_data
+          git commit -m "data: publish Polymarket scan CSVs [skip ci]"
+          git push origin HEAD:polymarket-scan-20260728
