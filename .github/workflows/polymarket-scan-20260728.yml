@@ -1,4 +1,4 @@
-name: Polymarket scan 2026-07-28
+name: Polymarket closed-position recovery 2026-07-28
 
 on:
   pull_request:
@@ -10,27 +10,22 @@ permissions:
   contents: read
 
 jobs:
-  scan:
+  recover:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
-      - name: Check out temporary branch
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Run bounded-time one-off scan
-        run: python polymarket_scan_fast_wrapper.py | tee scan.log
-
-      - name: Upload scan output
+      - name: Recover rate-limited closed positions
+        run: python recover_closed.py | tee recovery.log
+      - name: Upload recovery output
         uses: actions/upload-artifact@v4
         with:
-          name: polymarket-scan-results
+          name: polymarket-closed-recovery
           path: |
-            output/
-            scan.log
+            recovery_output/
+            recovery.log
           if-no-files-found: error
           retention-days: 1
